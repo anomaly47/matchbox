@@ -27,3 +27,7 @@ $(document).ready(function() {
     });
 });
 
+$().ready(function() {
+                $('#wrapper').tubular({videoId: 'VqZDuUd9Tdc'}); // where idOfYourVideo is the YouTube ID.
+        });
+

@@ -1,4 +1,9 @@
-body {
+
+*, *:hover, *:active {
+	outline: none;
+}
+
+.upper-padding-fix {
 	padding-top: 60px;
 }
 
@@ -208,6 +213,139 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f3f', end
 box-shadow:inset 0 0 15px 3px #222;
 
 }
+
+/* ======== LOGIN / SIGNUP ======================================================*/
+
+#homepage-logo {
+	color: white;
+	font-family: Mission-Script;
+	text-shadow: 2px 0px 0px rgba(0,0,0,0.3);
+	margin: 15px 19px;
+	font-size: 6em;
+	text-align: center;
+}
+
+#homepage-tagline {
+	color: #cacaca;
+	font-family: avenir-next-condensed;
+	font-size: 1.3em;
+	text-shadow: 1px 0px 0px rgba(0,0,0,0.5);
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: -1px;
+	font-style: italic;
+	margin: -28px 0px 15px 0px; 
+}
+
+#login-container {
+	background: rgba(255,255,255,0.15);
+	display: block;
+	padding: 0px 0px 5px 0px;
+	border-radius: 3px;
+}
+
+#login-wrap {
+	width: 350px;
+	height: 600px;
+	display: block;
+}
+.center-page {
+	margin: 20% 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homepage-field {
+	font-size: 1.4em;
+	font-family: avenir-next-condensed;
+
+}
+
+.homepage-field input {
+	width: 100%;
+	height: 55px;
+	background: white !important;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 1px rgba(0,0,0,0.05);
+}
+
+.homepage-input {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#login-wrap input[type="submit"] {
+	min-width: 180px;
+	width: 90%;
+	height: 55px;
+	border-radius: 3px;
+	color: white;
+	font-family: avenir-next-condensed;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.6em;
+	margin: 18px;
+	border: none;
+	padding-top: 5px;
+	background: #fc5c39; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #fc5c39 0%, #fc893d 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#fc5c39), color-stop(99%,#fc893d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #fc5c39 0%,#fc893d 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #fc5c39 0%,#fc893d 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #fc5c39 0%,#fc893d 99%); /* IE10+ */
+	background: linear-gradient(45deg,  #fc5c39 0%,#fc893d 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc5c39', endColorstr='#fc893d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	text-shadow: 1px 0px 0px rgba(0,0,0,0.2);
+	-webkit-transition: background 200ms ease-in-out;
+    -moz-transition: background  200ms ease-in-out;
+    -o-transition: background  200ms ease-in-out;
+    transition: background  200ms ease-in-out;
+}
+
+#login-wrap input[type="submit"]:hover {
+	background: #f96e52; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #f96e52 0%, #f9985c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#f96e52), color-stop(100%,#f9985c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #f96e52 0%,#f9985c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #f96e52 0%,#f9985c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #f96e52 0%,#f9985c 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #f96e52 0%,#f9985c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f96e52', endColorstr='#f9985c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.homepage-styles .signin {
+	background: rgba(255,255,255,0.15);
+	padding: 10px 20px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	border-radius: 3px;
+	border: solid 1px rgba(0,0,0,0.1);
+	color: white;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 1px 0px 0px rgba(0,0,0,0.2);
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.homepage-styles .signin:hover {
+	background: rgba(255,255,255,0.25);
+	text-decoration: none;
+}
+
+.homepage-styles .password {
+	display: none;
+}
+
 
 /* ======== FONTS ======================================================*/
 
